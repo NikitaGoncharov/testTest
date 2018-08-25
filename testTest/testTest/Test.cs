@@ -1,16 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace testTest
+﻿namespace testTest
 {
-    class Test
+    public class Test
     {
-        public int Exmpl(int x, int y)
+        public int Exmpl1(int x, int y)
         {
             return x + y;
+        }
+        public bool Exmpl2(int x)
+        {
+            int secret = 5;
+            if (secret == 5)
+                return true;
+            return false;
         }
     }
 }
